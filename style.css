@@ -1,0 +1,70 @@
+
+
+#timImg{
+ width: 175px;
+ margin-bottom: 50px;
+ border-radius: 50%;
+}
+
+#welcome{
+    overflow: hidden;
+    height: 800px;
+    bottom: 0px;
+    background: linear-gradient(#020024, #09793c);
+    opacity: 0.90;
+    color: white;
+    display: table;
+    z-index: 9;
+    width: 100%;
+}
+
+#Tim{
+ display: table-cell;
+ text-align: center;
+ vertical-align: middle;
+ position: relative;
+}
+
+body{
+    text-align: center;
+  }
+
+#textTim{
+   padding: 50px;
+   text-align: center;
+   font-size: 40px; 
+}
+
+p{
+    font-size: 15px;
+}
+
+.blankDiv{
+    height: 6px;
+    background-color: black;
+    width: 200px;
+    margin: auto;
+}
+
+.heading{
+    font-size: 40px;
+}
+
+.article{
+    color: black !important;
+}
+
+.article:hover{
+    color:rgb(41, 192, 230);
+}
+
+#footer{
+    background-color: violet;
+    color: darkkhaki;
+}
+
+#myNavTag{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
